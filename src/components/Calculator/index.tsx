@@ -12,6 +12,7 @@ export const Calculator: React.FC<ICalcProps> = ({ result }) => {
         <>
         <List items={[1,2,3,4,5]} renderItem={Button}/>
         <div>{result}</div>
+        <div>new</div>
         </>
     )
 }
